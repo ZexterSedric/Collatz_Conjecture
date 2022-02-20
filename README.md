@@ -18,12 +18,12 @@ Thereafter the sequencing begins with the number the user inputs.
 The code also provides the *Stopping Number* i.e. the number of steps after which the sequence reaches the ``4->2->1`` loop
 Then the graphing is done using the module
 #Graphing
-```for x in range(0,st):
+``for x in range(0,st):
     i.append(x)
 plt.plot(i,j)
 plt.xlabel('Iteration Number')
 plt.ylabel('Output')
 plt.grid(True)
-plt.show()```
+plt.show()``
 ![image](https://user-images.githubusercontent.com/75131827/154831007-caff6d2d-4a8d-4f62-a83c-2008e9393ec6.png)
 Hope you find it fun !!
